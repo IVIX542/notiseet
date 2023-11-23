@@ -95,6 +95,7 @@ a:hover:after {
     border: 2px solid rgb(248, 199, 134);;
 }
 
+
 #slogan{
     text-align: center;
 }
@@ -131,26 +132,30 @@ a:hover:after {
     color: blanchedalmond;
 }
 
+/* Botones de descarga */
+
 #boton-descarga{
     text-align: center;
 }
-
 #boton-descarga img{
     text-align: center;
     border-radius: 10px;
     padding-top: 20px;
 }
 
+#boton-descarga-windows{
+    float: right;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
 /* footer */
+
 footer{
     text-align: center;
     background-color: rgba(56, 56, 56, 0.138);
 }
 
-footer :first-child{
-    text-decoration: underline;
-}
-
-footer #twitter{
+footer a{
     text-decoration: underline;
 }
