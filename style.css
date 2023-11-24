@@ -175,3 +175,24 @@ footer a{
     color: red;
     background-color: rgba(245, 245, 220, 0.075);
 }
+
+/* Página 5 - Gancho */
+
+#slogan-p{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 116ch;
+    text-align: center;
+
+    animation: typing 3s steps(116),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from{width: 0;}
+}
+@keyframes blink{
+    50% {border-color: transparent;}
+}
