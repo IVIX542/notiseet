@@ -159,3 +159,19 @@ footer{
 footer a{
     text-decoration: underline;
 }
+
+.logo{
+    border-radius: 5px;
+}
+
+/* Página 3 - beneficios */
+
+#funcionamiento-h2 #func-span{
+    background-color: rgba(250, 235, 215, 0.13);
+    border-radius: 5px;
+}
+
+#rojo{
+    color: red;
+    background-color: rgba(245, 245, 220, 0.075);
+}
